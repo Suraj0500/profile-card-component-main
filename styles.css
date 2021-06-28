@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/bg-pattern-bottom.svg"), url("images/bg-pattern-top.svg");
+  background-position: 135% -150%, -45% 200%;
+  background-color: hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25vh;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: hsl(229, 23%, 23%);
+  margin: 0;
+}
+
+.card-footer-own p {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 0.8rem;
+  margin: 0;
+  letter-spacing: 0.1rem;
+}
+
+.card-body-own p, .card-body-own span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 0.9rem;
+  margin: 2% 0 0;
+}
+
+.card-own {
+  width: 23vw;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  height: 14vh;
+  left: 50%;
+  bottom: 0;
+  margin-left: -7vh;
+  margin-bottom: -7vh;
+}
+
+.card-header-own {
+  background-image: url("images/bg-pattern-card.svg");
+  background-size: cover;
+  height: 18vh;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body-own {
+  padding: 20% 10% 4%;
+}
+
+.card-footer-own {
+  border-top: 1px solid hsl(227, 10%, 85%);
+  padding: 10% 10% 7%;
+}
